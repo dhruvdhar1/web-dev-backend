@@ -20,5 +20,4 @@ app.get('/hello', (req, res) => {
 require('./services/movies-service')(app);
 require('./services/twitter-service')(app);
 require('./services/profile-service')(app);
-
 app.listen(port);
