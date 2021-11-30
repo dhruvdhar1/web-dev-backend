@@ -1,3 +1,5 @@
+let profileDao = require('../db/profile/profile-dao');
+
 let profileData = {
 	firstName: 'Jose',	
     lastName: 'Annunziato',	
@@ -23,6 +25,32 @@ module.exports = (app) => {
         }
         res.json(profileData);
     }
+
+    const findProfileById = (req, res) => {
+        profileDao.findProfileById(req.params.id).then(profile => {
+            res.json(profile);
+        });
+    }
+
+    const findProfile = (req, res) => {
+        profileDao.findProfile().then(profile => {
+            const profileList = profile.map(p => p);
+            res.json(profileList);
+        });
+    }
+
+    const updateProfileById = (req, res) => {
+        const { body } = req;
+        const { _id } = body
+        profileDao.updateProfile(_id, body).then(profile => {
+            res.json(profile);
+        })
+    }
+
     app.put('/api/profile', updateProfile);
     app.get('/api/profile', getUserprofile);
+
+    app.get('/rest/profile/', findProfile);
+    app.get('/rest/profile/:id', findProfileById);
+    app.put('/rest/profile/:id', updateProfileById);
 };
