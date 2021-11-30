@@ -1,0 +1,28 @@
+{
+	"_id": {
+		"$oid": "61a52711f4e850691b34f3a6"
+	},
+	"title": "Terminator1",
+	"rating": 4.8
+}
+{
+	"_id": {
+		"$oid": "61a5271af4e850691b34f3a7"
+	},
+	"title": "Avatar1",
+	"rating": 4.7
+}
+{
+	"_id": {
+		"$oid": "61a52721f4e850691b34f3a8"
+	},
+	"title": "Dune1",
+	"rating": 4.9
+}
+{
+	"_id": {
+		"$oid": "61a5297ff4e850691b34f3a9"
+	},
+	"title": "Deadpool2",
+	"rating": 4.7
+}

@@ -1,0 +1,41 @@
+{
+	"_id": {
+		"$oid": "61a529e7f4e850691b34f3aa"
+	},
+	"topic": "Web Development",
+	"userName": "ReactJS",
+	"verified": false,
+	"handle": "ReactJS",
+	"time": "2h",
+	"title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
+	"tweet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+	"attachments": {},
+	"logo-image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+	"avatar-image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+	"stats": {
+		"comments": 123,
+		"retweets": 234,
+		"likes": 353
+	},
+	"liked": false
+}
+{
+	"_id": {
+		"$oid": "61a668002b119fc66c2bacb6"
+	},
+	"topic": "Web Development",
+	"userName": "ReactJS",
+	"verified": false,
+	"handle": "ReactJS",
+	"tweet": "Hello\n",
+	"time": "2h",
+	"logo-image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+	"avatar-image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+	"stats": {
+		"comments": 123,
+		"retweets": 234,
+		"likes": 346
+	},
+	"__v": 0,
+	"liked": true
+}
